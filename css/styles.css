@@ -44,7 +44,7 @@ a {
 
 h1,h2,h3,h4 {
     font-family:var(--fuenteHeading);
-   /* ¡   line-height: 1.2rem;  REVISAR PORQUE ROMPE*/
+     line-height: 1.2;  
 }
 h1 {
     font-size: 4.8rem;
@@ -77,7 +77,7 @@ img{
 @media (min-width: 768px) {
 
     h1,h2,h3,h4 {
-        line-height: normal;
+        line-height: 2;
     }
 
 }
